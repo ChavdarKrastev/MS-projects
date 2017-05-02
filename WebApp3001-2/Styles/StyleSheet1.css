@@ -1,0 +1,109 @@
+﻿body {
+    font-family:'lucida grande' ,Tahoma,Verdana,Arial,sans-serif;
+background-color: steelblue;
+}
+#wrapper {
+    width: 1000px;
+    margin:0 auto;
+    padding: 10px;
+    border: 5px solid thick;
+    background-color:darkgoldenrod;
+}
+
+#banner {
+    height:150px;
+    border:3px solid medium;
+    background-image: url(../Imgs/002Nik1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigation {
+    height:50px;
+    margin-top: 20px;
+    background-image: url('../Imgs/brushedResjpg.jpg');
+    width: auto;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+#nav {
+    list-style: none;
+}
+
+#nav ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    width:auto;
+    display:none;
+}
+
+#nav li {
+    font-size: 24px;
+    float: left;
+    position: relative;
+    width: 180px;
+    height: 50px;
+
+}
+
+#nav li ul li {
+    background-image: url('../Imgs/60Cut.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid thin;
+    padding-left: 10px;
+}
+
+#nav a:link, #nav a:active, #nav a:visited {
+    display:block;
+    color:khaki;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color:darkkhaki;  
+}
+
+.imgLeft {
+    display:block;
+    padding: 15px;
+}
+
+#content_area {
+    width: 750px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border:3px solid medium;
+}
+
+#footer {
+    width: auto;
+    height: 80px;
+    margin-top: 20px;
+    background-image: url(../Imgs/brushedResjpg.jpg);
+    text-shadow: 0.1em 0.1em #333;
+    text-align: center;
+}
+
+.metalsTable {
+    width: 750px;
+    height: 250px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    
+}
+
+.metalsTable tr th, .coffeeTable tr td
+{
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+
+.metalsTable img
+{
+    padding: 0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
+}
